@@ -1,0 +1,18 @@
+{
+    "version":"0.2.0",
+    "configurations": [
+        {
+            "type":"java",
+            "name":"Java Debug",
+            "request":"launch",
+            "mainClass":"com.my.address.ClassMainController"
+        },
+        {
+            "type":"java",
+            "name":"Java Debug",
+            "request":"attach",
+            "hostName":"localhost",
+            "port":8080           
+        }
+    ]
+}
